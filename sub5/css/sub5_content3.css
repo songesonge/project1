@@ -1,0 +1,19 @@
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative; padding-top: 150px;}
+
+#content .content_area{overflow: hidden; font-family: 'Noto Sans KR', sans-serif;margin-bottom:100px;}
+#content .content_area h3{font-weight:500; font-size:31px; color: #333; margin-left:30px}
+
+
+.type{position: relative;margin-top: 100px;}
+.type h3::before{content: ''; width: 8px; height:31px; background: #663b8f; position: absolute;top:9px; left: 10px;}
+.type ul{margin-bottom: 150px;}
+.type li{overflow: hidden; border-bottom: #ccc dotted 1px; padding: 50px 0; position: relative;}
+.type li img{width: 382px; height: 215px; float: left;}
+.type li dl{float: left; margin: 10px 0 0 150px; text-align: justify;}
+.type li dl dt{font-size: 25px; font-weight: 500; margin-bottom: 20px;}
+.type li dl dd{font-size: 20px; line-height: 2em;}
+.type .btn{display: block;width: 300px; float: left; position: absolute; left: 535px; top: 220px;} 
+.type .btn a{display: block; width: 120px; background:#663b8f;
+    float: left; text-align: center; padding: 10px 0; margin-right: 30px; font-size: 16px;
+    color: #ffff;}

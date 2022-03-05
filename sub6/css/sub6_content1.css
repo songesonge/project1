@@ -1,0 +1,24 @@
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative; padding-top: 150px;}
+
+
+#content .content_area img{display: block;margin: 0 auto;}
+#content .content_area span{display: block;}
+
+#content .content_area .information{width:1020px;text-align: justify;margin:100px auto}
+#content .content_area .information p{margin-bottom:10px;}
+
+#content .content_area .seat{overflow:hidden;margin:100px auto;width:700px;padding:10px;}
+#content .content_area .seat img{float: left; margin-right: 30px;}
+#content .content_area .seat h3{margin-bottom:8px;margin-top: 10px;font-size: 20px;}
+
+#content .content_area .seatarange{width: 1100px;margin-bottom: 150px;}
+#content .content_area .seatarange figure{margin-bottom: 50px;}
+#content .content_area .seatarange figcaption{width:210px;margin:10px auto;color:#667a92;font-weight:500;}
+
+#content .content_area .private{overflow:hidden;margin:50px auto;width:700px;padding:10px;}
+#content .content_area .private img{float: left; margin-right:50px;margin-top:21px;}
+#content .content_area .private h3{margin-bottom:8px;margin-top: 10px;font-size: 20px;}
+
+#content .content_area .privateinfo{width:700px;margin: 0 auto}
+#content .content_area .privateinfo span:nth-child(2){margin-bottom:200px;}

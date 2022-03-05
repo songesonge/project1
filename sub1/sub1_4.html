@@ -1,0 +1,120 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about-위치</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_content4.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=407feb1864bbd714a6aa645b7d4ed83a"></script>
+    <script src="./js/map.js"></script>
+</head>
+
+<body>
+     <!-- 상단 헤더영역 -->
+     <? include "../common/sub_header.html" ?>
+
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>ABOUT</h3>
+            <span>마포아트센터</span>
+        </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub1_1.html">센터소개</a></li>
+                <li><a href="./sub1_2.html">재단연혁</a></li>
+                <li><a href="./sub1_3.html">제휴 협력</a></li>
+                <li class="current"><a href="./sub1_4.html">오시는 길</a></li>
+            </ul>
+        </div>
+
+
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map"><i class="fas fa-home"></i> &gt; ABOUT &gt; <strong>오시는 길</strong></div>
+                <h2>오시는 길</h2>
+                <p>LOCATION</p>
+            </div>
+
+            <div class="content_area">
+                <div class="content_inner">
+                    <img src="./images/content4/pin.png" alt="">
+                    <div class="content_title">
+                        
+                        <h3>마포아트센터</h3>
+                        <span>how to find us</span>
+                    </div>
+                    <div class="map">
+                        <div id="map"></div>
+                    </div>
+
+                    <div class="content_mid">
+                        <img src="images/content4/mid.jpg" alt="">
+                        <table>
+                           
+                            <tr>
+                               <th>주소</th>
+                               <td><span>서울시 마포구 대흥로 20길 28</span> <span>( 28, Daeheung-ro 20-gil, Mapo-gu, Seoul, Republic of Korea )</span></td>
+                            </tr>
+                            <tr class="tell">
+                               <th>전화번호</th>
+                               <td><span>공연문의 02-3274-8500</span> <span>대관문의 02-3274-8618</span></td>
+                            </tr>
+                            <tr class="open">
+                               <th>운영시간</th>
+                               <td><span>평일 06:00 - 22:00</span> <span>토요일 05:00 - 20:45</span> <span>일요일 10:00-16:45</span></td>
+                            </tr>
+                        </table>
+
+                        <h4><i class="fas fa-bus"></i>버스 이용시</h4>
+                        <table>
+                            <tr>
+                                
+                               <th>서강대 후문 정류장</th>
+                               <td><span>5714, 6712</span></td>
+                            </tr>
+                            <tr>
+                               <th>마포아트센터 정류장</th>
+                               <td>6716, 마을버스10번</td>
+                            </tr>
+                            <tr>
+                               <th>셔틀버스 운행</th>
+                               <td>마포구 전지역 5개 노선 - 10회운행</td>
+                            </tr>
+                        </table>
+                        
+                        <h4><i class="fas fa-subway"></i>지하철 이용시</h4>
+                        <table>
+                            <tr>
+                               <th>6호선</th>
+                               <td>대흥역 2번출구 도보 5분</td>
+                            </tr>
+                            <tr>
+                               <th>2호선</th>
+                               <td>이대입구역 5번출구 도보10분 (버스 이용시 6번출구 이용)</td>
+                            </tr>
+                        </table>
+                    </div>
+
+
+                </div>
+            </div>
+        </article>
+
+         <!-- 하단 푸터영역 -->
+        <? include "../common/sub_footer.html" ?>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.wrap header{background: #fff;}
+
+.visual{width: 2000px; position: relative;  left:50%; margin-left: -1000px; top:0}
+.visual h3{position: absolute; text-align: center;font-size: 36px;color:rgb(91, 69, 104); left:0; top:320px; width: 100%;font-weight: 400;}
+.visual span{position: absolute; text-align: center;font-size: 24px;color:rgb(103, 79, 117); left:0; top:380px; width: 100%;font-weight:300}
+
+.sub_menu{width: 2000px; margin: 0 auto; position: absolute;left:50%; margin-left: -1000px;top:496px; background:rgba(168, 117, 179, 0.9);}
+.sub_menu ul{overflow: hidden; width: 800px; margin: 0 auto;}
+.sub_menu li{float: left; width: 200px;}
+.sub_menu li a{display: block;color:whitesmoke ;font-size: 18px;padding:10px 0;font-weight:400; text-align: center; transition: all .5s;}
+.sub_menu li a:hover{background :#fff; color: #333; font-weight: bold;}
+.sub_menu .current a{background :#fff; color: #333; font-weight: bold;}
+
+#content .title_area{margin-bottom:50px;}
+#content .title_area .line_map{color: #666;position: absolute; right:15px; top:15px}
+#content .title_area h2{text-align: center; font-family:'Daum'; font-size: 46px; }
+#content .title_area p{text-align: center;font-family: 'Roboto', sans-serif; font-weight:300;font-size: 28px;color:#888; margin-top:25px;}
+#content .title_area span{margin-top:30px;font-size: 20px;color:rgb(151, 121, 167);font-weight:500;display: block;text-align: center;}
+#content .title_area span::before{content: '';background:rgb(220, 206, 228);width:200px;height:1.5px;position: absolute;top:280px;left:500px;}
+

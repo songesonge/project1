@@ -1,0 +1,609 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>academy-프로그램</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <link rel="stylesheet" href="./css/sub5_content2.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+
+<body>
+    
+    <!-- 상단 헤더영역 -->
+    <? include "../common/sub_header.html" ?>     
+    <div id="back"></div>
+
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>ACADEMY</h3>
+            <span>아카데미</span>
+        </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub5_1.html">아카데미</a></li>
+                <li class="current"><a href="./sub5_2.html">프로그램</a></li>
+                <li><a href="./sub5_3.html">수강 신청</a></li> 
+            </ul>
+        </div>
+
+
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map"><i class="fas fa-home"></i> &gt; ACADEMY &gt; <strong>프로그램</strong></div>
+                <h2>프로그램</h2>
+                <p>MAC ACADEMY PROGRAM</p>
+                <span>마포아트센터 아카데미의 다양한 문화예술 프로그램을 소개합니다</span>                
+            </div>
+
+
+            <div class="content_area">
+                <div class="type">
+                    <h3>미술 프로그램</h3>
+                    <div class="product art">
+                        <ul>
+                            <li><a href="#"><img src="./images/content2/art01.jpg" alt=""><span>유화 아크릴 수업</span>></a></li>
+                            <li><a href="#"><img src="./images/content2/art02.jpg" alt=""><span>풍경화 수업</span></a></li>
+                            <li><a href="#"><img src="./images/content2/art03.jpg" alt=""><span>색감 컬러링 수업</span></a></li>
+                            <li><a href="#"><img src="./images/content2/art04.jpg" alt=""><span>나이프화 수업</span></a></li>
+    
+                        </ul>    
+                    </div>
+    
+                    <ul class="product_info">
+                        <li class="info info_1">
+                            <img src="images/content2/art01.jpg" alt="C">
+                            <p>art class</p>
+                            <span>유화 아크릴</span>
+                            <p>표현력이 가장 풍부한 회화재료인 유화와 아크릴의 특징을 기초부터 쉽게 단계별로 익혀볼 수 있으며
+                                작품모사부터 개인 창작품까지 완성도 있게 끌어올릴 수 있도록 체계적인 지도를 받아 보실 수 있는 수업입니다 
+                            </p>
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt>· 강사</dt>
+                                        <dd>유승림</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>· 수강료</dt>
+                                        <dd>99,000원</dd>
+                                    </dl>
+                                </li>
+                                <li class="volume">
+                                    <dl>
+                                        <dt>· 수강일정</dt>
+                                        <dd>                                          
+                                        매주 금요일 11:30-13:00</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <a class="btnClose" href="#"><span class="hidden">팝업닫기</span><i class="fas fa-times"></i></a>
+                        </li>
+                        <li class="info info_2">
+                            <img src="images/content2/art02.jpg" alt="C">
+                            <p>art class</p>
+                            <span>풍경화 수업</span>
+                            <p>그림의 다양한 주제를 연필, 목탄, 콘테, 색연필, 파스텔 등의 다양한 드로잉 재료의 표현법을 익혀  자신만의 감각적인
+                                드로잉 실력을 키우는 수업입니다. 다양한 주제의 접근과 디테일한 형태력, 구성력을 더욱 확실히 다질 수 있습니다.
+                            </p>
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt>· 강사</dt>
+                                        <dd>김나비</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>· 수강료</dt>
+                                        <dd>99,000원</dd>
+                                    </dl>
+                                </li>
+                                <li class="volume">
+                                    <dl>
+                                        <dt>· 수강일정</dt>
+                                        <dd>                                          
+                                        매주 월요일 11:30-13:00</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <a class="btnClose" href="#"><span class="hidden">팝업닫기</span><i class="fas fa-times"></i></a>
+                        </li>
+                        <li class="info info_3">
+                            <img src="images/content2/art03.jpg" alt="C">
+                            <p>art class</p>
+                            <span>색감 컬러링 수업</span>
+                            <p>컬러링을 통해 표현방법을 훈련하는 그림초보자를 위한 기초과정부터,트랜드와 컨셉을 토대로 발전시킨
+                                자신만의 작업을 만들어가는, 필요에 따라 포트폴리오를 완성 할 수 있는 전문가과정까지 포함된 수업입니다
+                            </p>
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt>· 강사</dt>
+                                        <dd>오지연</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>· 수강료</dt>
+                                        <dd>100,000원</dd>
+                                    </dl>
+                                </li>
+                                <li class="volume">
+                                    <dl>
+                                        <dt>· 수강일정</dt>
+                                        <dd>                                          
+                                        매주 수요일 11:30-13:30</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <a class="btnClose" href="#"><span class="hidden">팝업닫기</span><i class="fas fa-times"></i></a>
+                        </li>
+                        <li class="info info_4">
+                            <img src="images/content2/art04.jpg" alt="C">
+                            <p>art class</p>
+                            <span>나이프화</span>
+                            <p>표현력이 가장 풍부한 회화재료인 유화와 아크릴의 특징을 나이프로 표현을 극대화 시킬 수 있습니다.
+                                작품모사부터 개인 창작품까지 완성도 있게 끌어올릴 수 있도록 체계적인 지도를 받아 보실 수 있는 수업입니다 
+                            </p>
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt>· 강사</dt>
+                                        <dd>이형주</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>· 수강료</dt>
+                                        <dd>140,000원</dd>
+                                    </dl>
+                                </li>
+                                <li class="volume">
+                                    <dl>
+                                        <dt>· 수강일정</dt>
+                                        <dd>                                          
+                                        매주 토요일 11:30-13:00</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <a class="btnClose" href="#"><span class="hidden">팝업닫기</span><i class="fas fa-times"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div  class="type">                    
+                    <h3>음악 프로그램</h3>
+                    <div class="product music">
+                        <ul>
+                            <li><a href="#"><img src="./images/content2/music01.jpg" alt=""><span>피아노 교실</span></a></li>
+                            <li><a href="#"><img src="./images/content2/music02.jpg" alt=""><span>바이올린 교실</span></a></li>
+                            <li><a href="#"><img src="./images/content2/music03.jpg" alt=""><span>기타 교실</span></a></li>
+                            <li><a href="#"><img src="./images/content2/music04.jpg" alt=""><span>일렉 교실</span></a></li>
+    
+                        </ul>
+    
+                    </div>
+    
+                    <ul class="product_info">
+                        <li class="info info_5">
+                            <img src="images/content2/music01.jpg" alt="C">
+                            <p>music class</p>
+                            <span>피아노 교실</span>
+                            <p>피아노 기초부터 바른 자세를 갖추고 악보의 음정과 박자를 익혀서 자신 있고 또렷하게 소리 냅니다. 
+                                진도와 단계에 맞추어 동요부터 영화음악, 클래식 악보 등을 연습하면서 자유게 즐기면서 연주할 수 있습니다. 
+                            </p>
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt>· 강사</dt>
+                                        <dd>유승림</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>· 수강료</dt>
+                                        <dd>99,000원</dd>
+                                    </dl>
+                                </li>
+                                <li class="volume">
+                                    <dl>
+                                        <dt>· 수강일정</dt>
+                                        <dd>                                          
+                                        매주 금요일 11:30-13:00</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <a class="btnClose" href="#"><span class="hidden">팝업닫기</span><i class="fas fa-times"></i></a>
+                        </li>
+                        <li class="info info_6">
+                            <img src="images/content2/music02.jpg" alt="C">
+                            <p>music class</p>
+                            <span>바이올린 교실</span>
+                            <p>바이올린의 바른 자세를 갖추고 악보의 음정과 박자를 익혀서 자신 있고 또렷하게 소리 냅니다. 
+                                진도와 단계에 맞추어 동요부터 영화음악, 클래식 악보 등을 연습하면서 어려운 악기를 보다 자유게 즐기면서 연주할 수 있습니다. 
+                            </p>
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt>· 강사</dt>
+                                        <dd>유승림</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>· 수강료</dt>
+                                        <dd>99,000원</dd>
+                                    </dl>
+                                </li>
+                                <li class="volume">
+                                    <dl>
+                                        <dt>· 수강일정</dt>
+                                        <dd>                                          
+                                        매주 금요일 11:30-13:00</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <a class="btnClose" href="#"><span class="hidden">팝업닫기</span><i class="fas fa-times"></i></a>
+                        </li>
+                        <li class="info info_7">
+                            <img src="images/content2/music03.jpg" alt="C">
+                            <p>music class</p>
+                            <span3>기타 교실</span3>
+                            <p>기타 코드기초 이론부터 바른 자세를 갖추고 악보의 음정과 박자를 익혀서 자신 있고 또렷하게 소리 냅니다. 
+                                진도와 단계에 맞추어 동요부터 영화음악, 클래식 악보 등을 연습하면서 보다 자유게 즐기면서 연주할 수 있습니다.  
+                            </p>
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt>· 강사</dt>
+                                        <dd>유승림</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>· 수강료</dt>
+                                        <dd>99,000원</dd>
+                                    </dl>
+                                </li>
+                                <li class="volume">
+                                    <dl>
+                                        <dt>· 수강일정</dt>
+                                        <dd>                                          
+                                        매주 금요일 11:30-13:00</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <a class="btnClose" href="#"><span class="hidden">팝업닫기</span><i class="fas fa-times"></i></a>
+                        </li>
+                        <li class="info info_8">
+                            <img src="images/content2/music04.jpg" alt="C">
+                            <p>music class</p>
+                            <span>일렉 교실</span>
+                            <p>일대일 수업과 함께 월말에는 벤드로 합주할 수 있는 클래스 입니다. 
+                                진도와 단계에 맞추어 동요부터 영화음악, 클래식 악보 등을 연습하면서 어려운 악기를 보다 자유게 즐기면서 연주할 수 있습니다.  
+                            </p>
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt>· 강사</dt>
+                                        <dd>유승림</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>· 수강료</dt>
+                                        <dd>99,000원</dd>
+                                    </dl>
+                                </li>
+                                <li class="volume">
+                                    <dl>
+                                        <dt>· 수강일정</dt>
+                                        <dd>                                          
+                                        매주 금요일 11:30-13:00</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <a class="btnClose" href="#"><span class="hidden">팝업닫기</span><i class="fas fa-times"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div  class="type">                
+                    <h3>인문교양 프로그램</h3>
+                    <div class="product culture">
+                        <ul>
+                            <li><a href="#"><img src="./images/content2/culture01.jpg" alt=""><span>공예 교실</span></a></li>
+                            <li><a href="#"><img src="./images/content2/culture02.jpg" alt=""><span>서예 교실</span></a></li>
+                            <li><a href="#"><img src="./images/content2/culture03.jpg" alt=""><span>스토리텔링 북</span></a></li>
+                            <li><a href="#"><img src="./images/content2/culture04.jpg" alt=""><span>문학 나눔</span></a></li>
+    
+                        </ul>
+    
+                    </div>
+    
+                    <ul class="product_info">
+                        <li class="info info_9">
+                            <img src="./images/content2/culture01.jpg" alt="">
+                            <p>culture class</p>
+                            <span>공예 교실</span>
+                            <p>공예의 역사 이야기와 기본적인 이론과 실무 지식을 함께 배우는 강의입니다. 
+                                실생활에서 사용할 수 있는 소품들을 직접 흙과 다양한 재료로 만들고 공유하는 수업입니다.
+                            </p>
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt>· 강사</dt>
+                                        <dd>유승림</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>· 수강료</dt>
+                                        <dd>99,000원</dd>
+                                    </dl>
+                                </li>
+                                <li class="volume">
+                                    <dl>
+                                        <dt>· 수강일정</dt>
+                                        <dd>                                          
+                                        매주 금요일 11:30-13:00</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <a class="btnClose" href="#"><span class="hidden">팝업닫기</span><i class="fas fa-times"></i></a>
+                        </li>
+                        <li class="info info_10">
+                            <img src="./images/content2/culture02.jpg" alt="C">
+                            <p>culture class</p>
+                            <span>서예 교실</span>
+                            <p>기초적인 서체를 익히고 습득하여 체계적으로 서예 학습을 합니다.
+                             덕성을 기르면서, 정신을 가다듬는 자기 수양에 큰 도움을 주고 있으며, 개인의 능력을 연마하여 전통성과 문화를 중시한 서도의 길에 입문하게 됩니다. 
+                            </p>
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt>· 강사</dt>
+                                        <dd>유승림</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>· 수강료</dt>
+                                        <dd>99,000원</dd>
+                                    </dl>
+                                </li>
+                                <li class="volume">
+                                    <dl>
+                                        <dt>· 수강일정</dt>
+                                        <dd>                                          
+                                        매주 금요일 11:30-13:00</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <a class="btnClose" href="#"><span class="hidden">팝업닫기</span><i class="fas fa-times"></i></a>
+                        </li>
+                        <li class="info info_11">
+                            <img src="./images/content2/culture03.jpg" alt="C">
+                            <p>culture class</p>
+                            <span>스토리텔링 북</span>
+                            <p>스토리는 일종의 뇌의 언어이기 때문에 네이티브가 아닌 이상 문법으로 접근해야 합니다. 
+                                문법 개념을 확실하게 이해한 상태에서 공식을 달달 외워 스토리텔링에 적용할 때 비로소 네이티브에 가까운 스토리텔러가 될 수 있습니다. 
+                            </p>
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt>· 강사</dt>
+                                        <dd>유승림</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>· 수강료</dt>
+                                        <dd>99,000원</dd>
+                                    </dl>
+                                </li>
+                                <li class="volume">
+                                    <dl>
+                                        <dt>· 수강일정</dt>
+                                        <dd>                                          
+                                        매주 금요일 11:30-13:00</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <a class="btnClose" href="#"><span class="hidden">팝업닫기</span><i class="fas fa-times"></i></a>
+                        </li>
+                        <li class="info info_12">
+                            <img src="./images/content2/culture04.jpg" alt="C">
+                            <p>culture class</p>
+                            <span>문학 나눔</span>
+                            <p>일상에 치인 생활에서 벗어나 문학을 읽고 생각하고, 쓰는 시간을 갖을 수 있습니다. 
+                                좋아하는 문학을 읽고 서로 나누며 소통하고 문학에 대한 견문을 높일 수 있는 수업입니다. 
+                            </p>
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt>· 강사</dt>
+                                        <dd>유승림</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>· 수강료</dt>
+                                        <dd>99,000원</dd>
+                                    </dl>
+                                </li>
+                                <li class="volume">
+                                    <dl>
+                                        <dt>· 수강일정</dt>
+                                        <dd>                                          
+                                        매주 금요일 11:30-13:00</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <a class="btnClose" href="#"><span class="hidden">팝업닫기</span><i class="fas fa-times"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div  class="type child">
+                    <h3>어린이 프로그램</h3>
+                    <div class="product">
+                        <ul>
+                            <li><a href="#"><img src="./images/content2/child01.jpg" alt=""><span>놀이학습</span></a></li>
+                            <li><a href="#"><img src="./images/content2/child02.jpg" alt=""><span>창의아트</span></a></li>
+                            <li><a href="#"><img src="./images/content2/child03.jpg" alt=""><span>유아발레</span></a></li>
+                            <li><a href="#"><img src="./images/content2/child04.jpg" alt=""><span>교구가베</span></a></li>
+    
+                        </ul>
+    
+                    </div>
+    
+                    <ul class="product_info">
+                        <li class="info info_13">
+                            <img src="./images/content2/child01.jpg" alt="C">
+                            <p>class for children</p>
+                            <span>놀이학습</span>
+                            <p>아이들의 창의력, 상상력을 그림에 표현하고 감정을 이끌어 내고 호응하는 전과정의 감성 아동놀이미술 프로그램을 제공합니다.
+                                감성놀이미술에서 한단계 깊은 프로그램으로 아이가 사고해 나가는 과정과 발상을 그림으로 표현할 수 있습니다.
+                            </p>
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt>· 강사</dt>
+                                        <dd>유승림</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>· 수강료</dt>
+                                        <dd>99,000원</dd>
+                                    </dl>
+                                </li>
+                                <li class="volume">
+                                    <dl>
+                                        <dt>· 수강일정</dt>
+                                        <dd>                                          
+                                        매주 금요일 11:30-13:00</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <a class="btnClose" href="#"><span class="hidden">팝업닫기</span><i class="fas fa-times"></i></a>
+                        </li>
+                        <li class="info info_14">
+                            <img src="./images/content2/child02.jpg" alt="C">
+                            <p>class for children</p>
+                            <span>창의아트</span>
+                            <p>아이들 스스로 창의력을 키울 수 있도록 자유롭고 다양한 아트 커리큘럼으로 구성되었습니다.
+                                더불어 미술에 대한 흥미와 두뇌발달을 같이 꾀할 수 있는 수업입니다.
+                            </p>
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt>· 강사</dt>
+                                        <dd>유승림</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>· 수강료</dt>
+                                        <dd>99,000원</dd>
+                                    </dl>
+                                </li>
+                                <li class="volume">
+                                    <dl>
+                                        <dt>· 수강일정</dt>
+                                        <dd>                                          
+                                        매주 금요일 11:30-13:00</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <a class="btnClose" href="#"><span class="hidden">팝업닫기</span><i class="fas fa-times"></i></a>
+                        </li>
+                        <li class="info info_15">
+                            <img src="./images/content2/child03.jpg" alt="C">
+                            <p>class for children</p>
+                            <span>유아 발레</span>
+                            <p>성장기 아이에 맞는 발레 기본 동작 및 발레 스트레칭을 통해 바른자세와 유연성을 기르게 됩니다.
+                                가벼운 점프나 동작을 통해 재미와 집중력을 높이고,발레 음악에 맞춰리듬감각과 음악성을 자연스럽게 익히는데 도움이 됩니다.
+                            </p>
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt>· 강사</dt>
+                                        <dd>유승림</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>· 수강료</dt>
+                                        <dd>99,000원</dd>
+                                    </dl>
+                                </li>
+                                <li class="volume">
+                                    <dl>
+                                        <dt>· 수강일정</dt>
+                                        <dd>                                          
+                                        매주 금요일 11:30-13:00</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <a class="btnClose" href="#"><span class="hidden">팝업닫기</span><i class="fas fa-times"></i></a>
+                        </li>
+                        <li class="info info_16">
+                            <img src="./images/content2/child04.jpg" alt="C">
+                            <p>class for children</p>
+                            <span>교구 가베</span>
+                            <p>가베는 1-10가베로 구성되어져있습니다. 1~6가베는 입체도형, 7가베는 평면도형, 8~9가베는 직선&곡선, 10가베는 점으로, 이런 기하학적 도형들을 초등 수학교과서와
+                                접목하여 수학적개념과 다양한 원리를 쉽게 이해 할 수 있습니다. 
+                            </p>
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt>· 강사</dt>
+                                        <dd>유승림</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>· 수강료</dt>
+                                        <dd>89,000원</dd>
+                                    </dl>
+                                </li>
+                                <li class="volume">
+                                    <dl>
+                                        <dt>· 수강일정</dt>
+                                        <dd>                                          
+                                        매주 목요일 11:30-13:00</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <a class="btnClose" href="#"><span class="hidden">팝업닫기</span><i class="fas fa-times"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </article>
+
+
+        <!-- 하단 푸터영역 -->
+        <? include "../common/sub_footer.html" ?>
+        <script src="js/modalpopup.js"></script>
+</body>
+</html>

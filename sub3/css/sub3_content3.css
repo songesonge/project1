@@ -1,0 +1,29 @@
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative; padding-top: 150px;margin-bottom: 150px;}
+
+#content .content_area section{margin-bottom:180px;}
+#content .content_area h3{font-size: 28px;font-weight:500;margin-bottom:20px;}
+#content .content_area h4{font-size: 24px;font-weight:400;}
+#content .content_area span{display: block;}
+
+#content .best_product h3{text-align: center;margin-bottom:50px;}
+
+.ticket_btn_box{overflow: hidden;padding-left:393px;}
+.ticket_btn{float: left;display:block; width:157px; height:51px;padding: 8px; box-sizing:border-box;margin-left:25px;margin-right:25px;
+            border:3px solid rgba(188, 187, 245, 0.637); border-radius: 25px;text-align:center;
+            font-weight:400;color:#563e72;  font-size:16px; position:relative; z-index:2;}
+.ticket_btn:before{content:""; width:0; height:100%; background:rgba(188, 187, 245, 0.384); border-radius: 25px;position:absolute; left:0; top:0; transition:all 0.3s; z-index:-1;}
+.ticket_btn:hover{color:#422d58;font-weight:500;}
+.ticket_btn:hover:before{width:100%;}
+
+#content .service .tit{overflow:hidden;}
+#content .service h3{float: left;width:180px;}
+#content .service p{padding-top: 12px;}
+#content .service ul{overflow: hidden;}
+#content .service li{float: left;padding: 50px;text-align: center;}
+#content .service img{border-radius:50%;padding-bottom:20px;padding-top: 20px;}
+#content .service dt{font-size:20px;padding-bottom:10px;}
+#content .service dd{font-size:16px;color: #555;}
+
+#content .content_area .cancle{margin-bottom:250px;}
+#content .cancle .text_box{margin-bottom: 50px;padding-top: 12px;}

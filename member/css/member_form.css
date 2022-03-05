@@ -1,0 +1,25 @@
+body{background:url(../images/member_bg.jpg) no-repeat center bottom; background-size: cover; 
+    margin:60px auto 0 auto; background-attachment: fixed; font-family: 'Nanum Gothic', sans-serif;}
+#content{width: 1200px; margin: 0 auto;}
+#content h2{margin-bottom: 30px; text-align: center; width: 100%; font-size: 30px;}
+#content span{display: block; margin: 0 0 10px 80px; font-size: 14px;}
+#content span i{color: #fe8c53;}
+.logo a{display: block; width:100px; height:100px; background: url(../images/logo.svg) no-repeat; text-indent: -999px; overflow: hidden;position: relative; left: 50%;  margin-left:-50px;}
+
+form{border: 1px solid #ccc; border-radius: 20px; padding:50px; width: 800px; margin:50px auto; background: #fff;}
+
+table{width: 80%; margin: 0 10%; }
+th,td{border-top: 1px solid #ddd; padding: 10px; }
+th{width: 30%; border-right: 1px solid #ddd;background: #f8f8f8;}
+td{width: 70%; position: relative;}
+td input{width: 90%;}
+th i{color:#fe8c53; margin-left: 10px;}
+input, select{padding: 5px; border-radius: 2px; font-size: 1em;font-weight: 500;border: 1px solid #eee;background-color: #fff9f6; outline: 0;}
+.hp input{width: 100px;}
+.mail input{width: 180px;}
+table tr:last-child td{text-align: center; padding: 20px 0}
+.mem_btn{text-align: center;}
+.fin{background:#232c1e; color: #fff; display: inline-block; padding: 20px 50px;}
+.re{background: #666; color: #fff; display: inline-block; padding: 20px 50px;}
+
+#loadtext span ,#loadtext2 span{position: absolute; top: 20px; right: 50px; font-size: 14px;}

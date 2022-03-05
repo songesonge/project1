@@ -1,0 +1,30 @@
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative; padding-top: 150px;}
+
+#content .content_area{line-height:2em;}
+#content .content_area>div{position: relative;padding-bottom:100px;padding-top:70px;}
+#content .content_area h3{font-weight:500; font-size:31px; color: #333; margin-left:30px;margin-bottom: 30px;}
+#content .content_area h3::before{content: ''; width: 8px; height:31px; background: #663b8f; position: absolute;top:79px; left: 10px;}
+
+.beautic{overflow: hidden; border-bottom: #999 1px solid;}
+.beautic p:nth-of-type(1){width:610px;text-align:justify;margin-bottom:80px;font-weight:400;color: #666;}
+.beautic p:nth-of-type(2){float:left;width:460px;padding-top:140px;margin-left:90px;font-weight:400;color: #555;}
+.beautic .circle{position: relative;float: left;margin-left:300px}
+.beautic .circle strong{position: absolute;top:123px; left:92px; font-size: 30px;color: #663b8f;}
+.beautic .circle span:nth-of-type(1){position: absolute;top:85px; left:104px; font-size:20px;color: #7342a0;font-weight:400;}
+.beautic .circle span:nth-of-type(2){position: absolute;top:170px; left:54px;font-size:16px;color: #663b8f;}
+.beautic .ticket_btn{float: left;display:block; width:157px; height:51px;padding: 8px; box-sizing:border-box;margin-left:80px;margin-top:-190px;
+    border:3px solid #faa4dfb0; border-radius: 25px;text-align:center; line-height: 1.5;font-weight:400;color:#563e72;  font-size:16px; position:relative; z-index:2;}
+.beautic .ticket_btn:before{content:""; width:0; height:100%; background:#8991ff8c; border-radius: 25px;position:absolute; left:0; top:0; transition:all 0.3s; z-index:-1;}
+.beautic .ticket_btn:hover{color:#422d58;font-weight:500;}
+.beautic .ticket_btn:hover:before{width:100%;}
+
+
+.example{ border-bottom: #999 1px solid;}
+.example span{font-weight:400;color: #555;margin: 0 auto;display: block;width: 700px;margin-bottom:30px;}
+.example p{width:598px;text-align: center;margin: 0 auto;padding: 100px;background-color: #c2eaf063;}
+
+.notice{border-bottom: #999 1px solid;}
+.notice span{display: block;font-weight: 400;}
+
+.beauticcontact{margin-bottom: 100px;}

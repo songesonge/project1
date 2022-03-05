@@ -1,0 +1,44 @@
+
+#content {position: relative;left:50%;width: 2000px;  margin-left: -1000px;background: url(../images/content4/back.jpg) no-repeat; background-position: right bottom; background-attachment: fixed;}
+#content .top_bg{width: 100%; background-color: rgb(255, 255, 255);}
+#content .title_area{width:1200px;margin:0 auto;padding-top: 150px;padding-bottom:150px;position: relative;}
+
+#content .content_area{width:1200px;margin:0 auto;}
+#content .content_area h3{font-family:'Daum'; font-weight:400;font-size: 34px;margin-bottom:30px;}
+
+/* event list */
+
+.list_top{height: 30px;}
+#list_total{margin: 0 0 30px 80px; font-family: 'Nanum Gothic', sans-serif; font-size: 15px; float: left}
+.scale{float: right; margin-right: 100px; margin-bottom: 20px; border: 1px solid #ccc; padding: 7px 0;border-radius: 5px;}
+
+#list_content{margin-top: 30px;}
+.list_item{border: 1px solid #ccc; border-radius: 10px; overflow: hidden; width: 480px; margin: 0 60px 30px;box-sizing: border-box; float: left;}
+.list_item1{float: left; margin-right: 15px;}
+.list_item2{float: left;}
+.list_item3{font-size: 20px; margin-left: 30px;}
+.list_item3 a:hover{text-decoration: underline;}
+.list_item .list_info{overflow: hidden; margin: 60px 0 30px 30px; color: #666;}
+.list_item .list_info i{margin-right: 8px;}
+.list_item4{float: left; margin-right: 15px;}
+.list_item5{float: left; margin-right: 15px;}
+.list_item6{float: left; margin-right: 15px;}
+.list_item2 img{width: 480px; height: 300px; margin-bottom: 30px;}
+
+.list_search{overflow: hidden; width: 958px; height: 58px; border: 1px solid #ccc; padding: 10px; margin: 0 auto 50px;border-radius: 10px;}
+.list_search .list_search1{float: left}
+.list_search .list_search2{float: left}
+.list_search .list_search3{float: left}
+.list_search .list_search1 select{font-family: 'Nanum Gothic', sans-serif; font-size: 14px; padding: 8px; border: solid 1px #ccc; width: 80px; margin: 10px 10px 0 175px; height: 38px}
+.list_search .list_search2 input{padding: 8px; border: 1px solid #ccc; width: 378px; font-family: 'Nanum Gothic', sans-serif; font-size: 18px; margin: 10px 10px 0 0; height: 20px}
+.list_search .list_search3 input{font-family: 'Nanum Gothic', sans-serif; font-size: 14px; padding: 8px; border: none; background:#232c1e; color: #fff;width: 100px; cursor: pointer; height: 38px; margin-top: 10px; border-radius: 5px;}
+
+
+.page_button{margin-top: 30px; margin-right: 100px;}
+.page_button .page_num{text-align: center; margin-bottom: 10px}
+
+
+.page_button .button{overflow: hidden; margin-bottom: 120px}
+.page_button .button a{display: block; float: right; background: #333; color: #fff; text-align: center;font-family: 'Nanum Gothic', sans-serif; font-size: 14px; width: 50px; height: 18px; padding: 10px; margin-left: 10px;border-radius: 5px;}
+.page_button .button a:hover{background: #fff; color: #333; border: 1px solid #333; width: 48px; height: 16px;}
+

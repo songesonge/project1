@@ -1,0 +1,30 @@
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative; padding-top: 150px;}
+#content .content_area img{display: block;margin: 0 auto;}
+#content .content_area span{display: block;}
+
+#content .content_area .information{width:1020px;text-align: justify;margin:100px auto}
+#content .content_area .information p{margin-bottom:10px;}
+
+#content .content_area .seat{overflow:hidden;margin:100px auto;width:700px;padding:10px;}
+#content .content_area .seat img{float: left; margin-right: 30px;}
+#content .content_area .seat h3{margin-bottom:8px;margin-top: 10px;font-size: 20px;}
+
+#content .content_area .seatarange{margin-bottom: 50px;}
+#content .content_area .seatarange figure{margin-bottom: 50px;}
+#content .content_area .seatarange figcaption{width: 160px;margin:10px auto;color:#7d6ea7;font-weight:500;}
+
+#content .content_area .floor{overflow:hidden;margin:0 auto;width:562px;}
+#content .content_area .floor h4{color:#7d6ea7;font-weight:400;margin-bottom:10px;}
+#content .content_area .floor div:nth-child(1){float: left;margin-right: 50px;}
+#content .content_area .floor div:nth-child(2){float: left;margin-right:50px;}
+#content .content_area .floor div:nth-child(3){float: left;margin-bottom: 200px;}
+
+/* #content .content_area .box{width: 1200px; overflow: hidden; border-radius: 30px; height:350px ; position: relative; margin-bottom: 100px;}
+#content .content_area .box div{width:20%; position:absolute;top:0; height:350px ;background-size: cover; opacity: 0;transition: width .5s , left .5s; }
+#content .content_area .box .box1{background: url(../images/content2/4dx.jpg) 0 0 no-repeat;left:0}
+#content .content_area .box ul{overflow: hidden;}
+#content .content_area .box ul li{width: 20%; float: left; height: 350px; background-size: cover; position: relative;}
+#content .content_area .box ul li a{display: block; height: 350px; position: relative; z-index: 20; color: #fff;
+    text-align: center; font-size: 30px; font-family: 'Roboto', sans-serif; font-weight:400; padding-top: 150px;}
+#content .content_area    .box ul li:nth-child(1){background:url(../images/content2/s1.jpg) center;} */

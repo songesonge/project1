@@ -1,0 +1,111 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about-위치</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub2common.css">
+    <link rel="stylesheet" href="./css/sub2_content3.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+
+<body>
+    <!-- 상단 헤더영역 -->
+    <? include "../common/sub_header.html" ?>
+       
+
+
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>FACILITY</h3>
+            <span>마포아트센터 시설안내</span>
+        </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub2_1.html">아트홀 맥</a></li>
+                <li><a href="./sub2_2.html">갤러리 맥</a></li>
+                <li  class="current"><a href="./sub2_3.html">플레이 맥</a></li>
+                <li><a href="./sub2_4.html">대관 안내</a></li>
+            </ul>
+        </div>
+
+
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map"><i class="fas fa-home"></i> &gt; FACILITY &gt; <strong>플레이 맥</strong></div>
+                <h2>플레이 맥</h2>
+                <p>PLAY MAC</p>
+                <span>즐거움과 행복으로 함께하는 문화공간</span>                
+            </div>
+
+            <div class="content_area">
+                <div  class="information">
+                    <h3 class="hidden">소개</h3>
+                    <p>플레이 맥은 인형극, 독주회 등 소규모 공연에 적합한 공간입니다. 연극, 놀다, 연주하다 의 뜻을 지닌 'play'라는 이름처럼 교육적이고 수준 높은 어린이 공연을 비롯, 소규모 콘서트 및 음악회를 선보이고 있습니다. 아울러, 소규모 공간에서 지역 주민 및 동아리들의 다채로운 공연과 행사가 진행되고 있습니다.
+                    </p>
+                </div>
+                
+                <img src="./images/content3/slide1.jpg" alt="">
+
+                <div class="seat">
+                    <img src="./images/content3/seat.gif" alt="">
+                    <h3>좌석 배치 안내</h3>
+                    <span>아트센터 맥 3층 총 241석( 일반석 217석 | 휠체어석 4석 *시야제한석 20석 )</span>
+                    <span>무대 가로 6.15m, 깊이 4.8m</span>
+                </div>
+                <div class="seatarange">
+                    <figure>
+                        <img src="./images/content3/seat_01.gif" alt="">
+                        <figcaption>플레이 맥 좌석배치도</figcaption>
+                    </figure>
+                </div>
+
+                <div class="floor">
+                    <div>
+                        <h4>1층(정면석) 166석</h4> 
+                        <span>일반석 162석</span>
+                        <span>휠체어석	4석</span>
+                    </div>
+
+                    <div>
+                        <h4>2층(정면석/측면석) 45석</h4>
+                        <span>일반석 37석</span>
+                        <span>시야제한석 8석</span>
+                    </div>
+
+
+                    <div>
+                        <h4>3층(3층석) 30석</h4>
+                        <span>일반석 18석</span>
+                        <span>시야제한석 12석</span>
+                    </div>
+                </div>
+                
+                <!-- <div class="box">
+                    <div class="box1"></div>
+                    <ul class="tab_menu">
+                        <li><a class="btn btn1" href="#">1층</a></li>
+                        
+                    </ul>
+                </div> -->
+
+            </div>
+        </article>
+
+
+        <!-- 하단 푸터영역 -->
+        <? include "../common/sub_footer.html" ?>
+</body>
+</html>

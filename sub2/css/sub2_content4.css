@@ -1,0 +1,33 @@
+#content {position: relative;left:50%;width: 2000px;  margin-left: -1000px;background: url(../images/content4/back.jpg) no-repeat; background-position: right bottom; background-attachment: fixed;}
+#content .top_bg{width: 100%; background: url(../images/content4/transparent_bg.png) no-repeat; background-position: 100% 0%;}
+#content .title_area{width:1200px;margin:0 auto;padding-top: 150px;padding-bottom:150px;position: relative;}
+
+#content .content_area{width:1200px;margin:0 auto;}
+#content .content_area h3{font-family:'Daum'; font-weight:400;font-size: 34px;margin-bottom:30px;margin-left:100px}
+
+
+#content .rent_01 p{margin-left:930px;margin-bottom: 5px;color: #555;}
+#content .rent_01 table{width:1000px;margin: 0 auto;;border-top:1px solid grey;border-left: 1px solid #dedede;margin-bottom:200px;background: whitesmoke;}
+#content .rent_01 table thead th{background-color:thistle}
+#content .rent_01 table th{padding:5px;height: 60px;border-bottom: 1px solid #dedede; border-right: 1px solid #dedede;}
+#content .rent_01 table td{padding:5px;height: 60px;border-bottom: 1px solid #dedede; border-right: 1px solid #dedede;text-align: center;}
+
+#content .rent_02{position: relative;}
+#content .rent_02 ul{padding-bottom: 150px;width:1000px;margin: 0 auto;}
+#content .rent_02 ul li{position: relative;margin-bottom: 150px;}
+#content .rent_02 ul dl::before{content: ''; width:100%; height:100%; border: 1px solid #a6b7fa;border-radius:15px; position: absolute; left: 0; top: 0;}
+#content .rent_02 ul dl{padding:90px 50px;background-color:rgba(239,230,252,.8);border-radius:15px;}
+#content .rent_02 ul dt{font-size:24px;font-weight:400;margin-bottom:30px;}
+#content .rent_02 ul .sub_tit{font-weight:400;margin-top:35px;}
+#content .rent_02 ul dd{margin-top: 20px; font-size: 1em; line-height: 1.5em; text-align: justify;}
+#content .rent_02 img{position: absolute;width: 50px;display: block;left:550px}
+#content .rent_02 img:nth-of-type(1){top:481px;}
+#content .rent_02 img:nth-of-type(2){top:902px;}
+#content .rent_02 img:nth-of-type(3){top:1330px;}
+#content .rent_02 img:nth-of-type(4){top:1844px;}
+#content .rent_02 img:nth-of-type(5){top:2263px;}
+#content .rent_02 img:nth-of-type(6){top:2735px;}
+#content .rent_02 img:nth-of-type(7){top:3157px;}
+#content .rent_02 img:nth-of-type(8){top:3578px;}
+#content .rent_02 img:nth-of-type(9){top:4001px;}
+#content .rent_02 img:nth-of-type(10){top:4787px;}

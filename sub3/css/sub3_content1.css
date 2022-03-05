@@ -1,0 +1,48 @@
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative; padding-top: 150px;}
+
+
+
+#sessions a {font-family:'Roboto';font-size:25px; font-weight:400;display: block;padding: 10px;transition:.7s ease;}
+#sessions a:hover {color: #4c2886; font-weight:500;}
+#sessions a.current{color:#fff; background:#6c6479;}
+#sessions ul {margin-top: 40px; overflow: hidden}
+#sessions li {width:50%;background-color: #fff;border: 1px solid #d6d6d6;box-sizing: border-box;text-align: center;float:left}
+
+#content .inner{width: 1200px;margin: 0 auto;}
+#content h5{padding-top:90px;margin-bottom: 20px;font-size:22px;font-weight: 400;}
+#content dl{padding:10px}
+#content dt{font-size:18px;font-weight:500;}
+#content dd{color:#555}
+
+#Concert{width:2000px;position: relative;left:50%;margin-left:-1000px;background: rgb(192, 192, 184)}
+#Concert .current{padding-bottom:100px;}
+#Concert .current ul{overflow: hidden;}
+#Concert .current li{float: left;margin-right:80px;}
+#Concert .current li:nth-child(3){margin-right:0}
+#Concert .current dl{padding:20px}
+#Concert .current img{width:340px}
+
+#Concert .past{padding-bottom:250px;}
+#Concert .past ul{overflow: hidden;}
+#Concert .past li{float: left;margin-right:85px;}
+#Concert .past li:nth-child(4){margin-right:0}
+#Concert .past img{width:230px}
+
+#Exhibition{width:2000px;position: relative;left:50%;margin-left:-1000px;background: rgb(119, 180, 145)}
+
+#Exhibition .current li{overflow: hidden;}
+#Exhibition .current li:nth-child(2){margin-top:90px;margin-bottom: 100px;}
+#Exhibition .current img{float: left;width:60%;}
+#Exhibition .current dl{display: block;width:30%;float:right;padding:160px 20px;}
+#Exhibition .current dt{margin-bottom: 20px;font-size:24px;}
+#Exhibition .current dd{font-family:'Roboto';line-height:2em;}
+#Exhibition .current a{color:#555}
+#Exhibition .current a:hover{color:#333;}
+
+#Exhibition .past{padding-bottom:250px;}
+#Exhibition .past ul{overflow: hidden;}
+#Exhibition .past li{float: left;margin-right:85px;}
+#Exhibition .past li:nth-child(4){margin-right:0}
+#Exhibition .past img{width:230px}
+

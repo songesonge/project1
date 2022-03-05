@@ -1,0 +1,16 @@
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative; padding-top: 150px;}
+
+
+#content .content_area img{display: block;margin: 0 auto;}
+#content .content_area span{display: block;}
+
+#content .content_area .information{text-align: justify;margin:100px auto}
+#content .content_area .information p{margin-bottom:10px;}
+
+#content .content_area .exhibit{overflow:hidden;margin:100px auto;width:500px;padding:10px;}
+#content .content_area .exhibit img{float: left; margin-right: 30px;}
+#content .content_area .exhibit h3{margin-bottom:8px;margin-top: 10px;font-size: 20px;}
+
+#content .content_area .design{margin-top:200px;margin-bottom:200px;}
+#content .content_area .design div{margin-bottom:100px;}

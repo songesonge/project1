@@ -1,0 +1,109 @@
+/* main visual area */
+.visual{width: 2000px;position: relative; top:0; left: 50%; margin-left: -1000px; height:1000px; overflow: hidden;}
+/* .visual img{animation: ani 20s linear infinite;} */
+
+.gallery{position:relative;left:0; top:0; overflow:hidden; width:2000px; height:1000px;}
+.gallery li{display:none;position: relative;}
+.gallery li img{width:100%;}
+
+
+/* slide botton  */
+.dock{width:330px; position:absolute;left:1520px;top: 888px;}
+.dock .mbutton{ margin-right:15px; cursor:pointer; display:block; float:left; width:10px; height:10px; background:rgb(236, 228, 236); border-radius:8px;  transition: all .5s}
+.dock .ps{ margin-right:15px;cursor:pointer; display:block; float:left; width:10px; height:10px; background:url(../images/stop.svg) no-repeat}
+
+/* main contents area */
+#content{width: 1200px; margin: 0 auto;}
+#content h3{font-family: 'Roboto', sans-serif;font-size: 60px;text-transform: uppercase;color:#333}
+#content .subtitle{font-family: 'Noto Sans KR', sans-serif;font-size: 20px; font-weight: 400; color:#666;display:block; margin-bottom: 50px;}
+
+#content .quick{padding:50px 0;}
+#content .quick_box ul{display: flex;flex-wrap: wrap;position: relative;}
+#content .quick_box li{width:25%; text-align: center;}
+#content .quick_box li:not(:last-of-type)::after{content: ''; display: block;position: absolute;top:35.5px;right: 0;left: 293px;width: 1px;height: 15px;background-color: #ccc;}
+#content .quick_box li:nth-of-type(2)::after{content: ''; display: block;position: absolute;top:35.5px;right: 0;left:589px;width: 1px;height: 15px;background-color: #ccc;}
+#content .quick_box li:nth-of-type(3)::after{content: ''; display: block;position: absolute;top:35.5px;right: 0;left:889px;width: 1px;height: 15px;background-color: #ccc;}
+
+#content .quick_box li img{width:60px;}
+#content .quick_box span{display: block;font-family: 'Noto Sans KR', sans-serif; color: #444}
+
+
+#content .concerts{position:relative; margin-top:115px; margin-bottom:200px;}
+#content .concerts h3{text-align: center}
+#content .concerts span{display:block; text-align: center;}
+#content .concerts_inner{width:2000px; height: 700px; position: relative; top: 0; left: 50%;  margin-left: -700px;}
+#content .concerts li{float: left;padding: 0 10px; margin-bottom: 50px;}
+#content .concerts dt{font-size:20px;font-weight:400;margin-top: 20px;}
+#content .concerts dd{font-size: 16px;color:#666}
+#content .botton_left{clear:both; position: absolute;top: 0; left: 50%; margin-left: -600px; margin-top: 320px;
+    font-size: 80px;color:#a6bfc0;}
+#content .botton_right{position: absolute;top: 0; left: 50%; margin-left: 600px; margin-top: 320px;
+    font-size: 80px;color:#a6bfc0;}
+#content .concerts .more{width: 196px;height: 52px; display:block; margin:0 auto;}
+
+
+
+#content .facility_box{width:2000px; position: relative;top:0; left: 50%; margin-left:-1000px; background:gainsboro;}
+#content .facility_inner{overflow: hidden;width:1200px; margin:0 auto;}
+#content .facility_titles{margin-left:700px;margin-top:100px;}
+#content .facility h4{font-family:'Roboto', sans-serif;font-size: 40px;text-transform: uppercase;color: #fff;}
+#content .facility dt{font-family:'Noto Sans KR';font-size: 18px;font-weight: 400;color: #fff;margin-bottom: 80px;}
+#content .facility dd{font-family:'Noto Sans KR';font-size: 14px;font-weight: 300;color: #fff;}
+#content .mac{padding: 50px;}
+#content .gellary_mac{position: relative; margin-left:50px}
+#content .gellary_text{position: absolute; margin-top:-460px;}
+#content .arthall_mac{position: relative; margin-top: -375px;margin-left: 687px;}
+#content .arthall_text{position: absolute; margin-top:-460px;}
+#content .play_mac{position: relative;  margin-top: 60px;margin-left: 265px;margin-bottom: 100px;}
+#content .play_text{position: absolute; margin-top:-460px;}
+
+
+#content .video{margin-bottom: 200px; margin-top:115px}
+#content .video h3{text-align: center}
+#content .video span{display:block; text-align: center}
+#content .video figcaption{font-family: 'Noto Sans KR', sans-serif;color: #666666;}
+#content .video_inner{width:1000px; margin: 0 auto; margin-bottom: 40px;}
+#content .video_box video{width:1000px;margin-bottom: 15px;}
+#content .video_box figcaption{font-size: 18px;}
+#content .thumbnail_box{overflow: hidden;margin-top: 30px;}
+#content .thumbnail_box img{margin-bottom: 10px;}
+#content .thumbnail_01{width: 297px; float:left; margin-right: 60px;}
+#content .thumbnail_02{width: 297px; float:left; margin-right: 40px;}
+#content .thumbnail_03{width: 297px; float:right;}
+#content .video .more{width: 196px;height: 52px; display:block; margin:0 auto;}
+
+
+#content .program{width: 2000px;position: relative;top:0; left: 50%; margin-left: -1000px; background:gainsboro;overflow: hidden;}
+#content .program_titles{position:absolute; margin-left:350px;margin-top: 200px;}
+#content .program_inner{width:1200px; margin: 0 auto;}
+#content .mapoindie{width:700px;height:300px; padding:80px; margin:100px 0 100px 340px; background: azure;}
+#content .mapoindie h4{margin-bottom: 30px; font-family:'Noto Sans KR', sans-serif;font-weight: 500;font-size: 28px;}
+#content .mapoindie p{width:600px;font-family:'Noto Sans KR', sans-serif;font-size: 16px; text-align: justify; line-height:2em;}
+#content .mapoindie .more{width: 196px;height: 52px; display:block; margin-top:50px;margin-left: 500px;}
+
+#content .news{margin-top:115px;margin-bottom:200px;}
+#content .news h3{text-align: center;}
+#content .news .subtitle{display: block;text-align: center;}
+#content .news ul:last-of-type{margin-bottom: 80px;}
+#content .news li{width:1000px;margin: 0 auto; font-family:'Noto Sans KR', sans-serif;border-bottom:.5px solid gainsboro;}
+#content .news a{line-height: 3.3em;display: flex;}
+#content .news .date{font-weight:300; font-size: 14px;color:#777;display: block;width:200px;}
+#content .news .subject{font-weight: 400;color:#666;width:800px;}
+#content .news .subject:hover{color:#000}
+#content .news .more{width: 196px;height: 52px; display:block; margin:0 auto;}
+
+
+#content .guide{margin-bottom:200px;}
+#content .guide h3{text-align: center;}
+#content .guide .subtitle{display: block;text-align: center;}
+#content .guide_inner{position: relative; width: 1200px; }
+#content .guide a{position: absolute;right: 50px;top: 50px;}
+
+
+.sns{overflow:hidden;margin-bottom:150px;}
+.sns span{display: block;color: #fff;font-size: 22px;font-weight:500}
+.sns i{color: #fff;font-size:42px;margin-top:150px;margin-bottom:30px;}
+.sns .facebook_box{width:280px; height:500px;background-color:#4867aa; float:left;box-sizing: border-box;text-align: center;}
+.sns .facebook{width: 300px; height:500px;border:2px solid #ccc; float:left; margin:0 40px 0 0;box-sizing: border-box;}
+.sns .twitter_box{width:280px; height:500px;background-color:#2aa9e0; float:left;text-align: center;}
+.sns .twitter{overflow-y: scroll;width: 300px; height:500px;border:2px solid #ccc; float:left;box-sizing: border-box;}

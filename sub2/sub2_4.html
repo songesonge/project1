@@ -1,0 +1,211 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about-위치</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub2common.css">
+    <link rel="stylesheet" href="./css/sub2_content4.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+
+<body>
+   <!-- 상단 헤더영역 -->
+   <? include "../common/sub_header.html" ?>
+       
+
+
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>FACILITY</h3>
+            <span>마포아트센터 시설안내</span>
+        </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub2_1.html">아트홀 맥</a></li>
+                <li><a href="./sub2_2.html">갤러리 맥</a></li>
+                <li><a href="./sub2_3.html">플레이 맥</a></li>
+                <li class="current"><a href="./sub2_4.html">대관 안내</a></li>
+            </ul>
+        </div>
+
+
+        <article id="content">
+            <div class="top_bg">
+                <div class="title_area">
+                    <div class="line_map"><i class="fas fa-home"></i> &gt; FACILITY &gt; <strong>대관 안내</strong></div>
+                    <h2>대관 안내</h2>
+                    <p>OUR HISTORY since 2007</p>                
+                </div>
+            </div>
+
+            <div class="content_area">
+
+                <div class="rent_01">
+                    <h3>아트센터 공연 및 전시 대관료</h3>
+                    <p>(단위: 원/부가세별도)</p>
+                    <table>                        
+                        <colgroup>
+                            <col style="width: 30%;" />
+                            <col style="width: 46%;" />
+                            <col style="width: 24%;" />
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">구분</th>
+                                <th scope="col">장르</th>
+                                <th scope="col">사용료(1회)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th rowspan="2" scope="row">아트홀 맥</th>
+                                <td>콘서트, 오페라, 발레, 무용 등</td>
+                                <td>4,750,000</td>
+                            </tr>
+                            <tr>
+                                <td>뮤지컬, 기타</td>
+                                <td>8,800,000</td>
+                            </tr>
+                            <tr>
+                                <th rowspan="2" scope="row">플레이 맥</th>
+                                <td>미니콘서트, 연극, 무용 등</td>
+                                <td>1,700,000</td>
+                            </tr>
+                            <tr>
+                                <td>뮤지컬, 기타</td>
+                                <td>3,300,000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">갤러리 맥</th>
+                                <td>모든 전시</td>
+                                <td>620,000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="rent_02">
+                    <h3>대관절차</h3>
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt>01. 대관신청</dt>
+                                <dd>대관신청 : rent@mac.org 메일로 양식 제출 ( 대관 문의 : 02-3274-8500 )</dd>
+                                <dd>정기대관은 차기년도 개시 전 전당이 정하는 시기에 시행</dd>
+                                <dd>수시대관은 정기대관 이후 잔여 일정 발생 시 시행</dd>
+                            </dl>                            
+                        </li>
+                        
+                        <li>
+                            <dl>
+                                <dt>02. 대관심의</dt>
+                                <dd>공연장르별 전문가들로 구성된 대관심의위원회에서 공연단체,  출연자, 작품 등의 내용을 심사하고 승인작품을 선정</dd>
+                            </dl>
+                        </li>
+                        
+                        <li>
+                            <dl>
+                                <dt>03. 승인통보</dt>
+                                <dd>계약금과 계약기한이 명시된 승인서 발송 ( 계약금 및 계약기간 명시 )</dd>
+                            </dl>
+                        </li>
+                        
+                        <li>
+                            <dl>
+                                <dt>04. 대관계약</dt>
+                                <dd>계약금 납부 후 대관자 전용 홈페이지를 통해 계약 체결</dd>
+                                <dd>계약 시 대표자（ 개인의 경우 본인 ）의 인감이 필요할 수 있음</dd>
+                                <dd>계약 후 변경사항은 대관자 전용 홈페이지를 통해 신청</dd>
+                            </dl>
+                        </li>
+                        
+                        <li>
+                            <dl>
+                                <dt>05. 공연진행 협의</dt>
+                                <dd>대관 담당자와 전반적인 공연진행 조율 협의 및 확정</dd>
+                            </dl>
+                        </li>
+                        
+                        <li>
+                            <dl>
+                                <dt>06. 입장권 검인</dt>
+                                <dd>마포아트센터 홈페이지 행사 정보 등록</dd>
+                                <dd>입장권 판매좌석 및 내용 검인</dd>
+                            </dl>
+                        </li>
+                        
+                        <li>
+                            <dl>
+                                <dt>07. 입장권 판매의뢰</dt>
+                                <dd>마포 아트센터 입장권 판매대행사에 판매 의뢰</dd>
+                            </dl>
+                        </li>
+                        
+                        <li>
+                            <dl>
+                                <dt>08. 기본대관료 납부</dt>
+                                <dd>입장권 발권 전 또는 대관 개시일 90일 전까지</dd>
+                            </dl>
+                        </li>
+                        
+                        <li>
+                            <dl>
+                                <dt>09. 입장권 발권 및 판매기능</dt>
+                                <dd>기본대관료 납부 완료 후, 입장권 발권 및 판매 가능</dd>
+                            </dl>
+                        </li>
+                        
+                        <li>
+                            <dl>
+                                <dt>10. 공연 준비 및 진행</dt>
+                                <dd class="sub_tit">대관 진행</dd>
+                                <dd>전당 홈페이지 홍보 공연정보  : mac@mac.org 제출</dd>
+                                <dd>공연진행 협의 (녹화, 리허설, 로비 및 객석진행, 부대설비 및 연습실 신청)  : rent@mac.org 제출</dd>
+                                <dd  class="sub_tit">티켓 준비</dd>
+                                <dd>공연 전산등록, 입장권 판매 및 발권, 공연당일 현장매표소 운영, 기타 입장권 관련 협의 • 진행</dd>
+                                <dd  class="sub_tit">무대 사전세팅</dd>
+                                <dd>스태프회의 진행</dd>
+                                <dd>조명, 음향, 무대미술 등 설치, 철수 등 무대 작업 일정 및 리허설 일정 협의</dd>
+                            </dl>
+                        </li>
+                        
+                        <li>
+                            <dl>
+                                <dt>11. 대관료 정산</dt>
+                                <dd>추가대관료 및 부대설비사용료 최종 정산(세금계산서 발행 포함)</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                    <img src="images/content4/downarrow.png" alt="다음">
+                    <img src="images/content4/downarrow.png" alt="다음">
+                    <img src="images/content4/downarrow.png" alt="다음">
+                    <img src="images/content4/downarrow.png" alt="다음">
+                    <img src="images/content4/downarrow.png" alt="다음">
+                    <img src="images/content4/downarrow.png" alt="다음">
+                    <img src="images/content4/downarrow.png" alt="다음">
+                    <img src="images/content4/downarrow.png" alt="다음">
+                    <img src="images/content4/downarrow.png" alt="다음">
+                    <img src="images/content4/downarrow.png" alt="다음">
+                </div>
+            </div>
+        </article>
+
+
+
+        <!-- 하단 푸터영역 -->
+        <? include "../common/sub_footer.html" ?>
+</body>
+</html>

@@ -1,0 +1,297 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마포아트센터</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+    <link rel="stylesheet" href="./common/css/common.css">
+    <link rel="stylesheet" href="./maincss/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <script src="./common/js/prefixfree.min.js"></script>
+    <script src="./mainjs/mainpopup.js"></script>
+</head>
+<body>
+    <!-- 상단 헤더영역 -->
+        <? include "./common/main_header.html" ?>
+        <div class="visual">
+            <div class="gallery">
+                <ul>
+                     <li class="link1"> <img src="./images/visual01.jpg" alt=""></li>
+                     <li class="link2"><img src="./images/visual02.jpg" alt=''></li>
+                     <li class="link3"><img src="./images/visual03.jpg" alt=''></li>                                         
+               </ul>
+        </div>
+      
+        <div class="dock">
+             <span class="mbutton  btn1" ></span>
+             <span class="mbutton  btn2" ></span>
+             <span class="mbutton  btn3" ></span>                       
+             <span class="ps" ></span>
+       </div>           
+        </div>
+
+        <article id="content">
+            <h2 class="hidden">본문콘텐츠영역</h2>
+
+            <div class="quick">
+                <div class="quick_box">
+                     <h3 class="hidden">퀵메뉴</h3>
+                     <ul>
+                         <li>
+                             <a href="#">
+                             <img src="./images/quick01.png" alt="예매안내 이미지">
+                            <span>예매안내</span>
+                             </a> 
+                         </li>
+                         <li>
+                             <a href="#">
+                             <img src="./images/quick02.png" alt="공연일정 이미지">
+                             <span>공연일정</span>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="#">
+                             <img src="./images/quick03.svg" alt="대관안내 이미지">
+                             <span>대관안내</span>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="#">
+                             <img src="./images/quick04.png" alt="문의하기 이미지">
+                             <span>문의하기</span>
+                             </a>
+                         </li>
+                      </ul>
+                </div>
+            </div>
+            
+            <div class="concerts">
+                <h3>upcoming concerts</h3>
+                <span class="subtitle">마포 아트센터의 콘서트를 안내합니다</span>
+               <div class="concerts_inner">
+                    <ul>
+                        <li>
+                            
+                         <a href="#">
+                            <img src="./images/concert01.jpg" alt="">
+                            <dl>
+                           <dt>2021 인디열전</dt>
+                           <dd class="date">2021. 06. 24 - 2021. 11. 12</dd>
+                           </dl>
+                        </a> 
+                        </li>
+                        <li>
+                            <a href="#">
+                            <img src="./images/concert02.jpg" alt="">
+                            <dl>
+                            <dt>마포M클래식 축제</dt>
+                            <dd class="date">2021. 10. 05 - 2021. 10. 30</dd>
+                            </dl>
+                        </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <img src="./images/concert03.jpg" alt="">
+                            <dl>
+                            <dt>imagine mac</dt>
+                            <dd class="date">2021.01 -01 -2021. 12. 30</dd>
+                            </dl>
+                            </a>
+                        </li>
+                    </ul>
+               </div>
+                <a class="botton_left" href="#"><span class="hidden">왼쪽으로 이동버튼</span><i class="fas fa-chevron-left"></i></a>
+                <a class="botton_right" href="#"><span class="hidden">오른쪽으로 이동버튼</span><i class="fas fa-chevron-right"></i></a>
+                <a class="more" href="#"><img src="./images/more.png" alt="더보기"></a>
+            </div>
+
+            <div class="facility">
+               <div class="facility_box">
+                    <div class="facility_inner">
+                        <div class="facility_titles">
+                            <h3>facility</h3>
+                            <span class="subtitle">열린 문화 예술 공간, 마포 아트센터의 시설을 소개합니다</span>
+                        </div>
+                        <ul>
+                            <li class="gellary_mac">
+                                <a href="sub2/sub2_2.html">
+                                    <img src="./images/gallery02.jpg" alt="갤러리맥 이미지">
+                                    <div class="gellary_text mac">
+                                        <h4>gellary mac</h4>
+                                        <dl>
+                                            <dt>일상의 색을<br>다채롭게 물들이는 공간</dt>
+                                            <dd>갤러리 맥은 전시의 목적에 맞게 다양한 공간을 제공합니다.<br>그림, 사진 전시 뿐 아니라, 디자인, 공예, 아동미술 및 체험전<br>등 다양한 프로그램을 선보입니다.
+                                                <br>
+                                                <br>
+                                                누구나 편하고 자유롭게 누릴 수 있는 문화가 되도록<br>갤러리 맥이 만들어가겠습니다.
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                </a></li>
+                        
+                            <li class="arthall_mac">
+                                <a href="sub2/sub2_1.html">
+                                    <img src="./images/arthall02.jpg" alt="아트홀맥 이미지">
+                                    <div  class="arthall_text mac">
+                                      <h4>art hall mac</h4>
+                                      <dl>
+                                       <dt>활력과 쉼을 주는<br>시민을 위한 예술공간</dt>
+                                       <dd>홍대와 신촌의 대학가에 둘러싸인 아트홀 맥은 멋진<br>외관과 함께 첨단 음향과 조명시스템을 갖추어 다양한<br>장르의 공연을 선보일 수 있습니다. 
+                                        <br>
+                                        <br>
+                                        쾌적한 분위기에서 공연을 감상할 수 있도록 설계된<br>아트홀 맥에서 다양한 공연을 접해보세요.
+                                       </dd>
+                                      </dl>
+                                    </div>
+                                </a></li>
+                        
+                            
+                                <li class="play_mac">
+                                    <a href="sub2/sub2_3.html">
+                                        <img src="./images/play02.jpg" alt="플레이맥 이미지">
+                                        <div class="play_text mac">
+                                         <h4>play mac</h4>
+                                         <dl>
+                                           <dt>즐거움과 행복으로<br>함께하는 문화 공간</dt>
+                                           <dd>‘연극, 놀다, 연주하다’ 의 뜻을 지닌 'play'라는 이름처럼<br>교육적이고 수준 높은 어린이 공연을 비롯, 소규모 콘서트<br>및 다양한 음악회를 선보이고 있습니다. 
+                                            <br>
+                                            <br>
+                                            아울러, 지역 주민 및 동아리들의 다채로운 공연과 행사로<br>시민 모두와 함께하는 문화공간으로 다가가겠습니다. 
+                                           </dd>
+                                         </dl>
+                                        </div>
+                                    </a></li>
+                        </ul>
+                    </div>
+               </div>
+            </div>
+
+            <div class="video">
+                     <h3>video</h3>
+                    <span class="subtitle">마포 아트센터의 콘서트를 영상으로 즐기세요</span>
+                <div class="video_inner">
+                    <figure class="video_box">
+                        <video controls="controls" poster="./images/video01.jpg">
+                        <source src="./images/mainvideo.mp4" type="video/mp4">
+                        </video>
+                        <figcaption>마포 M 클래식 축제  - 마포사계 "봄" 앙상블 비바체 in 마포꽃길</figcaption>
+                    </figure>
+                    
+                    <div class="thumbnail_box">
+                        <figure class="thumbnail_01">
+                            <img src="./images/video02.jpg" alt="">
+                            <figcaption>마포사계 "여름" 볼체 콰르텟</figcaption>
+                        </figure>
+                        <figure class="thumbnail_02">
+                            <img src="./images/video03.jpg" alt="">
+                            <figcaption>마포사계 "가을" 임희영과 앙상블</figcaption>
+                        </figure>
+                        <figure class="thumbnail_03">
+                            <img src="./images/video04.jpg" alt="">
+                            <figcaption>마포사계 "겨울" 첼리스트 양성원</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <a class="more" href="sub3/sub3_4.html"><img src="./images/more.png" alt="더보기"></a>
+            </div>
+
+            <div class="program">
+                <div class="program_titles">
+                    <h3>program</h3>
+                    <span class="subtitle">꿈을 실현하는 마포 문화재단의 프로그램</span>
+                </div>
+                <div class="program_inner">
+                    <div class="mapoindie">
+                        <h4>마포 음악 창작소</h4>
+                        <p>서울마포음악창작소는  음악시장 진입에 어려움을 겪고있는 신인 인디뮤지션들을 지원하는 사업으로, 독립음악인을 위한 공간입니다. 인디문화의기반인 마포지역의 특성을 담은 서울의 대표 음악 창작 플랫폼으로,  대관뿐 아니라 공연, 음반 제작, 홍보 마케팅, 합동 콘서트, 뮤지션 멘토링, 기획연결 등 다양한 지원 사업을 기획 운영하고있습니다.
+                        </p>
+                        <a class="more" href="#"><img src="./images/more.png" alt="더보기"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news">
+                <? include "./lib/func.php"; ?>
+                <h3>news</h3>
+                <span class="subtitle">마포 아트센터의 소식을 전합니다</span>
+                
+                <? latest_article("greet", 5, 60); ?>
+                <a class="more" href="./greet/list.php"><img src="./images/more.png" alt="더보기"></a>                
+            </div>
+
+            <div class="guide">
+               <div class="guide_inner">
+                    <h3>culture guide</h3>
+                    <span class="subtitle">더 풍족한 문화생활을 즐길 수 있도록, 문화 가이드가 여러분을 안내합니다</span>
+                    <div class="accordion"><img src="./images/guide.jpg" alt="컬쳐가이드 아코디언"></div>
+                    <a href="#"><img src="./images/more.png" alt="더보기"></a>
+               </div>
+            </div>
+
+            <div class="sns">
+                <h3>sns</h3>
+                <span class="subtitle">마포문화단에서 운영하는 SNS 채널을 소개합니다</span>
+                <div class="facebook_box">
+                    <i class="fab fa-facebook"></i>
+                    <span>facebook</span>
+                </div>
+                <div class="facebook">
+                <div id="fb-root"></div>
+                <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v12.0" nonce="NIAITdup"></script>
+                <div class="fb-page" data-href="https://www.facebook.com/mapoartscenter/" data-tabs="timeline" data-width="380px" data-height="500px" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/mapoartscenter/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/mapoartscenter/">마포아트센터</a></blockquote></div>
+                </div>
+            
+                <div class="twitter_box">
+                    <i class="fab fa-twitter"></i>
+                    <span>twitter</span>
+                </div>
+                <div class="twitter">
+                    <div class="snsContent">
+                            <a class="twitter-timeline" data-lang="ko" data-theme="light" href="https://twitter.com/mapoartscenter">Tweets by mapoartscenter</a>
+                            <script async src="https://platform.twitter.com/widgets.js"></script>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+
+        <!-- 하단 푸터영역 -->
+        
+        <? include "./common/main_footer.html" ?>
+
+        
+
+        
+    <!-- 공지사항 팝업 -->
+    <div id="showimage" style="z-index:99;position:absolute;width:499px;left:100px;top:220px;">
+        <script>
+           function closeWin(){
+                var chk = document.getElementById('Notice')
+                if ( chk.checked ) {
+                    setCookie( "Notice", "done" , 1); 
+                }
+            }
+            if ( getCookie( "Notice" ) == "done" ) {
+                hidebox();
+            }
+       </script>
+          <div>
+                <img src="./popup/pop.png" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다." />
+          </div>
+           <div style="font-size:12px;text-align:center;color:#666;">
+             <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은 이창을 열지 않음.</label>
+           <a href="#"  onclick="closeWin();hidebox();return false;" style="color: aliceblue;">[close]</a>
+        </div>
+      </div>
+
+      
+</body>
+</html>

@@ -1,0 +1,81 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about-공연 전시</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub3common.css">
+    <link rel="stylesheet" href="./css/sub3_content1.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>    
+</head>
+
+<body>
+    <!-- 상단 헤더영역 -->
+    <? include "../common/sub_header.html" ?>
+       
+
+
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>PROGRAM</h3>
+            <span>마포아트센터 공연 • 전시 프로그램</span>
+        </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li  class="current"><a href="./sub3_1.html">공연 • 전시</a></li>
+                <li><a href="./sub3_2.html">일정 안내</a></li>
+                <li><a href="./sub3_3.html">티켓 예매</a></li>
+                <li><a href="./sub3_4.html">온라인 마포</a></li>
+            </ul>
+        </div>
+
+
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map"><i class="fas fa-home"></i> &gt; PROGRAM &gt; <strong>공연 • 전시</strong></div>
+                <h2>공연 • 전시</h2>
+                <p>CONCERTS & EXHIBITIONS</p>
+                <span>마포아트센터의 공연 전시를 안내합니다</span>
+            </div>
+
+            <div class="content_area">
+                <section id="Tab">
+                    <h3 class="hidden">공연 • 전시 보기</h3>
+                    <div id="container">                    
+                 
+                        <div id="sessions">
+                          <ul>
+                              <li><a class="current" href="data.html#Concert">Concerts</a></li>
+                              <li><a href="data.html#Exhibition">Exhibitions</a></li>                              
+                          </ul>
+                        </div>                 
+                      
+                  
+                        <div id="details">
+                            <!--이 위치에 데이터가 로드된다 -->
+                        </div>              
+              
+                    </div><!-- #container -->
+                  </section><!-- #content -->                 
+            </div>
+        </article>
+
+
+        <!-- 하단 푸터영역 -->
+        <? include "../common/sub_footer.html" ?>
+        <script src="js/tab.js"></script>
+        
+</body>
+</html>

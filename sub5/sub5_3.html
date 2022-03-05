@@ -1,0 +1,226 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>academy-수강 신청</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <link rel="stylesheet" href="./css/sub5_content3.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+
+<body>
+   <!-- 상단 헤더영역 -->
+   <? include "../common/sub_header.html" ?>
+       
+
+
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>ACADEMY</h3>
+            <span>아카데미</span>
+        </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub5_1.html">아카데미</a></li>
+                <li><a href="./sub5_2.html">프로그램</a></li>
+                <li  class="current"><a href="./sub5_3.html">수강 신청</a></li> 
+            </ul>
+        </div>
+
+
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map"><i class="fas fa-home"></i> &gt; ACADEMY &gt; <strong>수강 신청</strong></div>
+                <h2>수강 신청</h2>
+                <p>MAC ACADEMY REGISTRATION</p>
+                <span>지금 신청하시면 마포아트센터 아카데미의 다양한 강좌를 즐기실 수 있습니다</span>
+            </div>
+
+            <div class="content_area">
+                <div class="type">
+                    <h3>미술 프로그램 강좌 신청</h3>
+                    <ul>
+                        <li>
+                            <img src="./images/content3/art01.jpg" alt="">
+                            
+                            <dl>
+                                <dt>서양화 종합반</dt>
+                                <dd>
+                                    요일 / 시간 : 화 13:00-16:00
+                                    <br>
+                                    수강료(3M) : 96,250
+                                </dd>
+                            </dl>
+                           <span class="btn">
+                               <a class="btn1" href="#">신청하기</a>
+                               <a class="btn2" href="#">문의하기</a>
+                            </span>                            
+                        </li>
+                        <li>
+                            <img src="./images/content3/art02.jpg" alt="">
+                            
+                            <dl>
+                                <dt>수채화 뎃생교실</dt>
+                                <dd>
+                                    요일 / 시간 : 목 13:00-16:00
+                                    <br>
+                                    수강료(3M) : 96,050
+                                </dd>
+                            </dl>
+                           <span class="btn">
+                               <a class="btn1" href="#">신청하기</a>
+                               <a class="btn2" href="#">문의하기</a>
+                            </span>                            
+                        </li>
+                    </ul>
+                </div>
+                <div  class="type">                    
+                    <h3>음악 프로그램 강좌 신청</h3>
+                    <ul>
+                        <li>
+                            <img src="./images/content3/music01.jpg" alt="">
+                            
+                            <dl>
+                                <dt>피아노 교실</dt>
+                                <dd>
+                                    요일 / 시간 : 금 13:00-16:00
+                                    <br>
+                                    수강료(3M) : 90,000
+                                </dd>
+                            </dl>
+                           <span class="btn">
+                               <a class="btn1" href="#">신청하기</a>
+                               <a class="btn2" href="#">문의하기</a>
+                            </span>                            
+                        </li>
+                        <li>
+                            <img src="./images/content3/music02.jpg" alt="">
+                            
+                            <dl>
+                                <dt>바이올린 교실</dt>
+                                <dd>
+                                    요일 / 시간 : 토 13:00-16:00
+                                    <br>
+                                    수강료(3M) : 89,000
+                                </dd>
+                            </dl>
+                           <span class="btn">
+                               <a class="btn1" href="#">신청하기</a>
+                               <a class="btn2" href="#">문의하기</a>
+                            </span>                            
+                        </li>
+                    </ul>
+                </div>
+                <div  class="type">                
+                    <h3>인문교양 프로그램 강좌 신청</h3>
+                    <ul>
+                        <li>
+                            <img src="./images/content3/culture01.jpg" alt="">
+                            
+                            <dl>
+                                <dt>공예</dt>
+                                <dd>
+                                    요일 / 시간 : 화 13:00-16:00
+                                    <br>
+                                    수강료(3M) : 96,250
+                                </dd>
+                            </dl>
+                           <span class="btn">
+                               <a class="btn1" href="#">신청하기</a>
+                               <a class="btn2" href="#">문의하기</a>
+                            </span>                            
+                        </li>
+                        <li>
+                            <img src="./images/content3/culture02.jpg" alt="">
+                            
+                            <dl>
+                                <dt>한문 서예교실</dt>
+                                <dd>
+                                    요일 / 시간 : 목 13:00-16:00
+                                    <br>
+                                    수강료(3M) : 96,000
+                                </dd>
+                            </dl>
+                           <span class="btn">
+                               <a class="btn1" href="#">신청하기</a>
+                               <a class="btn2" href="#">문의하기</a>
+                            </span>                            
+                        </li>
+                    </ul>
+                </div>
+                <div  class="type">
+                    <h3>어린이 프로그램 강좌 신청</h3>
+                    <ul>
+                        <li>
+                            <img src="./images/content3/child01.jpg" alt="">
+                            
+                            <dl>
+                                <dt>창의아트</dt>
+                                <dd>
+                                    요일 / 시간 : 수 15:00-16:00
+                                    <br>
+                                    수강료(3M) : 90,000
+                                </dd>
+                            </dl>
+                           <span class="btn">
+                               <a class="btn1" href="#">신청하기</a>
+                               <a class="btn2" href="#">문의하기</a>
+                            </span>                            
+                        </li>
+                        <li>
+                            <img src="./images/content3/child02.jpg" alt="">
+                            
+                            <dl>
+                                <dt>발레교실</dt>
+                                <dd>
+                                    요일 / 시간 : 화 14:00-16:00
+                                    <br>
+                                    수강료(3M) : 100,000
+                                </dd>
+                            </dl>
+                           <span class="btn">
+                               <a class="btn1" href="#">신청하기</a>
+                               <a class="btn2" href="#">문의하기</a>
+                            </span>                            
+                        </li>
+                        <li>
+                            <img src="./images/content3/child03.jpg" alt="">
+                            
+                            <dl>
+                                <dt>교구가베</dt>
+                                <dd>
+                                    요일 / 시간 : 월 13:00-16:00
+                                    <br>
+                                    수강료(3M) : 96,250
+                                </dd>
+                            </dl>
+                           <span class="btn">
+                               <a class="btn1" href="#">신청하기</a>
+                               <a class="btn2" href="#">문의하기</a>
+                            </span>                            
+                        </li>
+                    </ul>
+                </div>
+                
+
+            </div>
+        </article>
+
+
+        <!-- 하단 푸터영역 -->
+        <? include "../common/sub_footer.html" ?>
+</body>
+</html>

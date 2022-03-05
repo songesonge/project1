@@ -1,0 +1,141 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>academy-아카데미</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <link rel="stylesheet" href="./css/sub5_content1.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+
+<body>
+    <!-- 상단 헤더영역 -->
+    <? include "../common/sub_header.html" ?>
+       
+
+
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>ACADEMY</h3>
+            <span>아카데미</span>
+        </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li  class="current"><a href="./sub5_1.html">아카데미</a></li>
+                <li><a href="./sub5_2.html">프로그램</a></li>
+                <li><a href="./sub5_3.html">수강 신청</a></li>                
+            </ul>
+        </div>
+
+
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map"><i class="fas fa-home"></i> &gt; ACADEMY &gt; <strong>아카데미</strong></div>
+                <h2>아카데미</h2>
+                <p>MAC ACADEMY</p>
+                <span>다양한 문화예술 체험 공간 마포아트센터 아카데미를 소개합니다</span>
+
+            </div>
+
+            <div class="content_area">
+                
+
+
+
+                    <div class="intro">
+                        <h3>아카데미 소개</h3>
+                        <img src="images/content1/academy.jpg" alt="">
+                        <p> 2008년 개관한 마포아트센터는 영유아부터 70세 어르신에 이르기까지
+                            전 세대의 문화 욕구와 수요를 반영한 90여개 다양한 문화예술 강좌를 운영합니다.
+                            누구라도 문화예술로 풍요로운 여가를 누릴 수 있도록 다양한 분야 문화예술 프로그램 60여개를 운영하는 시민아카데미와
+                            특정 분야를 보다 전문화하여 특화시킨 전문아카데미로 구성됩니다.</p>
+                    </div>
+
+                    <div class="process">
+                        <h3>수강신청 절차</h3>
+                        <ol>
+                            <li>
+                                <img src="./images/content1/step1.jpg" alt="구매문의 이모티콘">
+                                <dl>
+                                    <dt>step1</dt>
+                                    <dd>신청문의</dd>
+                                </dl>
+                                <span class="hidden">화살표</span><i class="fas fa-chevron-right"></i>
+                            </li>
+                            <li>
+                                <img src="./images/content1/step2.jpg" alt="주문접수 이모티콘">
+                                <dl>
+                                    <dt>step2</dt>
+                                    <dd>신청접수</dd>
+                                </dl>
+                                <span class="hidden">화살표</span><i class="fas fa-chevron-right"></i>
+                            </li>
+                            <li>
+                                <img src="./images/content1/step3.jpg" alt="결제 이모티콘">
+                                <dl>
+                                    <dt>step3</dt>
+                                    <dd>결제</dd>
+                                </dl>
+                                <span class="hidden">화살표</span><i class="fas fa-chevron-right"></i>
+                            </li>
+                            <li>
+                                <img src="./images/content1/step4.png" alt="수령확인 이모티콘">
+                                <dl>
+                                    <dt>step4</dt>
+                                    <dd>수강승인</dd>
+                                </dl>
+                                <span class="hidden">화살표</span><i class="fas fa-chevron-right"></i>
+                            </li>
+                            <li class="last">
+                                <img src="./images/content1/step5.jpg" alt="구매완료 이모티콘">
+                                <dl>
+                                    <dt>step5</dt>
+                                    <dd>신청완료</dd>
+                                </dl>
+                            </li>
+                        </ol>
+                        <p>
+                            구매문의 필수서류 : 사업자등록증, 재직자 명함
+                            결제방법  : 가상계좌입금 or 법인카드
+                        </p>
+                        <span>
+                            * 개인 신용카드 및 체크카드 구입은 불가합니다. 
+                            <br>
+                            관람권 구매 시 세금계산서 및 계산서는 발행되지 않습니다. 
+                        </span>
+                    </div>
+    
+                    <div class="program">
+                        <h3>프로그램 안내</h3>
+                        <ul>
+                            <li class="art"><a href="sub5_2.html#art"><span class="hidden">미술 프로그램</span></a></li>
+                            <li class="music"><a href="sub5_2.html#music"><span class="hidden">음악 프로그램</span></a></li>
+                            <li class="culture"><a href="sub5_2.html#culture"><span class="hidden">인문교양 프로그램</span></a></li>
+                            <li class="child"><a href="sub5_2.html#child"><span class="hidden">어린이 통합 프로그램</span></a></li>
+    
+                        </ul>
+    
+                    </div>
+    
+                
+            </div>
+        </article>
+
+
+        <!-- 하단 푸터영역 -->
+        <? include "../common/sub_footer.html" ?>
+</body>
+</html>
